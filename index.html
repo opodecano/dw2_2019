@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!--Cabecera-->
+    <div class="header">
+        <h1>Mi Sitio</h1>
+    </div>
+
+    <!--Seccion-->
+    <div class="row">
+        <!--Menu-->
+        <div class="content">
+            <!--Caja de Menu-->
+            <div>
+                <h4>Menu</h4>
+                <ul>
+                    <li>
+                        <input name="login" type="submit" value="portada">
+                    </li>
+                    <li>
+                        <input name="login" type="submit" value="ingresar">
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <!--Caja de Atencion-->
+            <div>
+                <h4>Atencion</h4>
+                <p> Texto de prueba. Solo para llenar espacio.
+                </p>
+            </div>
+        </div>
+        <!--Formulario-->
+        <div>
+            <fieldset class="ingre">
+                <legend>Ingresar</legend>
+                <form id="app-login" action="process.php">
+                    <legend> Login Details</legend>
+                    <div>
+                        <label for="user-name">Username: </label>
+                        <input name="user-name" type="email" placeholder="Your user name">
+                    </div>
+                    <div>
+                        <label for="password">Password: </label>
+                        <input name="password" type="password" placeholder="6 digit password">
+                    </div>
+                    <div>
+                        <input name="login" type="submit" value="Login">
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer" >
+        <div>Creado en DW2 - UNAE - FACAT</div>
+    </div>
+</body>
+</html>
